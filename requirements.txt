@@ -1,0 +1,9 @@
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.8
+marshmallow==2.20.2
+psycopg2==2.8.5
+requests==2.22.0
+setuptools==39.0.1
+urllib3==1.25.8
+xmltodict==0.12.0

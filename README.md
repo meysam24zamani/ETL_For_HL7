@@ -6,7 +6,7 @@ I recommend to create a virtual env in  order to prepare envirnoment for running
 
 ```bash
 # Creat a virtual envirnoment with all dependencies installed in python version 3.7
-python3.7 -m venv env && source env/bin/activate && pip install --upgrade pip && pip install -r requirements.txt && sudo apt install python3-dev libpq-dev && pip install psycopg2
+python3.7 -m venv env && source env/bin/activate && pip install --upgrade pip && pip install -r requirements.txt 
 
 ## Run the application.
 ./wrapper.sh 
