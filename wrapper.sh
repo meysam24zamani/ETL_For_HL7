@@ -6,7 +6,7 @@ source env/bin/activate
 
 # Set environment variables
 export SAMPLE_DATE='2019-11-22T09:57:19'
-export SAMPLE_ID='Z7183270'
+export SAMPLE_ID='Y5694768M'
 export MAIN_SCRIPT="src/main.py"
 export PYTHONPATH=$PWD/src:$PWD/src/tools
 

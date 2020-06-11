@@ -331,3 +331,16 @@
 2020-05-13 23:07:18 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
 2020-05-22 11:39:46 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
 2020-05-22 11:40:08 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-05-22 14:19:17 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 15:58:31 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 15:59:18 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:08:28 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:08:35 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:11:48 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:12:59 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:13:46 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:14:27 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 16:15:18 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 17:17:53 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 17:18:16 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
+2020-06-11 17:44:04 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Y5694768M 

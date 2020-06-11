@@ -67,9 +67,7 @@ CREATE TABLE Dim_Type_Analysis
     name VARCHAR(200) NOT NULL,
     min FLOAT,
     max FLOAT,
-    units VARCHAR(200) NOT NULL,
-    sign VARCHAR(200),
-    consequence VARCHAR(200)
+    units VARCHAR(200) NOT NULL
 )
 """
 cur.execute(query4)
@@ -82,7 +80,9 @@ CREATE TABLE Fact_Observation
     patient_id SERIAL NOT NULL REFERENCES Dim_Patient (id),
     sample_date_id timestamp NOT NULL REFERENCES Dim_Date (sample_timestamp),
     type_analysis_id VARCHAR(200) NOT NULL REFERENCES Dim_Type_Analysis (code),
-    result_value FLOAT NOT NULL
+    result_value FLOAT NOT NULL,
+    relative_discrepancy FLoat,
+    consequence VARCHAR(200)
 )
 """
 cur.execute(query5)

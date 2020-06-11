@@ -1,0 +1,2279 @@
+{
+    "MSH": {
+        "MSH9": {
+            "MSG1": "ORU",
+            "MSG2": "R01"
+        },
+        "MSH2": "^~\\&",
+        "MSH10": "20191126163122262",
+        "MSH7": {
+            "TS1": "20191126163122"
+        },
+        "MSH5": {
+            "HD1": "MadeGenes.Ws"
+        },
+        "MSH3": {
+            "HD1": "ETL_FOR_HL7"
+        },
+        "MSH11": {
+            "PT1": "P"
+        },
+        "MSH12": {
+            "VID1": "2.5"
+        },
+        "MSH1": "|"
+    },
+    "xmlns_xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ORU_R01_PATIENT_RESULT": {
+        "ORU_R01_PATIENT": {
+            "PID": {
+                "PID8": "M",
+                "PID7": {
+                    "TS1": "19890315"
+                },
+                "PID5": {
+                    "XPN2": "Forooshani",
+                    "XPN3": "Meysam",
+                    "XPN1": {
+                        "FN1": "Zamani"
+                    }
+                },
+                "PID2": {
+                    "CX1": null
+                }
+            },
+            "ORU_R01_VISIT": {
+                "PV1": {
+                    "PV1_3": {
+                        "PL1": "PVV",
+                        "PL3": "LAB URGELL-BARCELONA (PVV)"
+                    },
+                    "PV1_52": {
+                        "XCN3": "SC-ACT A TRASPASAR/SIN CARGO",
+                        "XCN1": "SC"
+                    },
+                    "PV1_50": {
+                        "CX1": null
+                    },
+                    "PV1_4": null,
+                    "PV1_17": {
+                        "XCN4": null,
+                        "XCN3": null,
+                        "XCN1": null,
+                        "XCN2": {
+                            "FN1": null
+                        }
+                    }
+                }
+            }
+        },
+        "ORU_R01_ORDER_OBSERVATION": [
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "1",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "4,83",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "4,10 - 5,75",
+                        "OBX6": {
+                            "CE2": "x10&6/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "1",
+                        "OBX3": {
+                            "CE2": "Hematíes",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "HEM"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "2",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "15,5",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "12,50 - 17,20",
+                        "OBX6": {
+                            "CE2": "g/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "2",
+                        "OBX3": {
+                            "CE2": "Hemoglobina",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "HB"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "3",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "44,3",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "36,50 - 50,50",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "3",
+                        "OBX3": {
+                            "CE2": "Hematocrito",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "HCTO"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "4",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "92",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "78,00 - 99,00",
+                        "OBX6": {
+                            "CE2": "fL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "4",
+                        "OBX3": {
+                            "CE2": "VCM",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "VCM"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "5",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "32,1",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "26,00 - 33,50",
+                        "OBX6": {
+                            "CE2": "pg"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "5",
+                        "OBX3": {
+                            "CE2": "HCM",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "HCM"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "6",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "35,0",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "31,50 - 36,00",
+                        "OBX6": {
+                            "CE2": "g/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "6",
+                        "OBX3": {
+                            "CE2": "CHCM",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "CHCM"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "7",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "12,8",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "11,50 - 15,50",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "7",
+                        "OBX3": {
+                            "CE2": "RDW",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "RDW"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "8",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "4,9",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "3,90 - 10,50",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "8",
+                        "OBX3": {
+                            "CE2": "Leucocitos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "LEUC"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "9",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "51,8",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "42,00 - 77,00",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "9",
+                        "OBX3": {
+                            "CE2": "Neutrófilos %",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "NEUT%"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "10",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "34,2",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "20,00 - 44,00",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "10",
+                        "OBX3": {
+                            "CE2": "Linfocitos %",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "LINF%"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "11",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "10,6",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "1,50 - 9,50",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "11",
+                        "OBX3": {
+                            "CE2": "Monocitos %",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "MONO%"
+                        },
+                        "OBX8": "H"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "12",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "2,7",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,50 - 5,50",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "12",
+                        "OBX3": {
+                            "CE2": "Eosinófilos %",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "EOS%"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "13",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "0,7",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 1,75",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "13",
+                        "OBX3": {
+                            "CE2": "Basófilos %",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "BASO%"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "14",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "2,5",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "1,50 - 7,70",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "14",
+                        "OBX3": {
+                            "CE2": "Neutrófilos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "NEUT"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "15",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "1,7",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "1,10 - 4,50",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "15",
+                        "OBX3": {
+                            "CE2": "Linfocitos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "LINF"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "16",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "0,5",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,10 - 0,95",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "16",
+                        "OBX3": {
+                            "CE2": "Monocitos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "MONO"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "17",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "0,1",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,02 - 0,50",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "17",
+                        "OBX3": {
+                            "CE2": "Eosinófilos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "EOS"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "18",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "0,0",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 0,20",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "18",
+                        "OBX3": {
+                            "CE2": "Basófilos",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "BASO"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "19",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "182",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "150,00 - 370,00",
+                        "OBX6": {
+                            "CE2": "x10³/mm³"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "19",
+                        "OBX3": {
+                            "CE2": "Plaquetas",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "PLQ"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "20",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "10,3",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "7,00 - 12,00",
+                        "OBX6": {
+                            "CE2": "fL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "20",
+                        "OBX3": {
+                            "CE2": "VPM",
+                            "CE3": "Hematología y Hemostasia",
+                            "CE1": "VMP"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "21",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "92",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "74,00 - 106,00",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "21",
+                        "OBX3": {
+                            "CE2": "Glucosa (suero/plasma)",
+                            "CE3": "Bioquímica",
+                            "CE1": "GS"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "22",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "5,3",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 6,50",
+                        "OBX6": {
+                            "CE2": "%"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "22",
+                        "OBX3": {
+                            "CE2": "Hemoglobina A1c (NGSP)",
+                            "CE3": "Bioquímica",
+                            "CE1": "HG"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "23",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "34",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 48,00",
+                        "OBX6": {
+                            "CE2": "mmol/mol"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "23",
+                        "OBX3": {
+                            "CE2": "Hemoglobina A1c (IFCC)",
+                            "CE3": "Bioquímica",
+                            "CE1": "HGIF"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "24",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "247",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 200,00",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "24",
+                        "OBX3": {
+                            "CE2": "Colesterol total",
+                            "CE3": "Bioquímica",
+                            "CE1": "CT"
+                        },
+                        "OBX8": "H"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "25",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "59",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "40,00 - 59,00",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "25",
+                        "OBX3": {
+                            "CE2": "Colesterol HDL",
+                            "CE3": "Bioquímica",
+                            "CE1": "CH"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "26",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "105",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 150,00",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "26",
+                        "OBX3": {
+                            "CE2": "Triglicéridos",
+                            "CE3": "Bioquímica",
+                            "CE1": "TG"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "27",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "2,15",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "1,60 - 2,60",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "27",
+                        "OBX3": {
+                            "CE2": "Magnesio",
+                            "CE3": "Bioquímica",
+                            "CE1": "MG"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "28",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "314",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "230,00 - 416,00",
+                        "OBX6": {
+                            "CE2": "U/L"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "28",
+                        "OBX3": {
+                            "CE2": "Lactato deshidrogenasa (LDH)",
+                            "CE3": "Bioquímica",
+                            "CE1": "LDH"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "29",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "93",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 171,00",
+                        "OBX6": {
+                            "CE2": "U/L"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "29",
+                        "OBX3": {
+                            "CE2": "Creatina Quinasa (CK)",
+                            "CE3": "Bioquímica",
+                            "CE1": "CPK"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "30",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "210",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "20,00 - 250,00",
+                        "OBX6": {
+                            "CE2": "ng/mL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "30",
+                        "OBX3": {
+                            "CE2": "Ferritina",
+                            "CE3": "Bioquímica",
+                            "CE1": "FERRI"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "31",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "9,4",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "8,60 - 10,20",
+                        "OBX6": {
+                            "CE2": "mg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "31",
+                        "OBX3": {
+                            "CE2": "Calcio total",
+                            "CE3": "Bioquímica",
+                            "CE1": "CAT"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "32",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "12,38",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "0,00 - 15,00",
+                        "OBX6": {
+                            "CE2": "µmol/L"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "32",
+                        "OBX3": {
+                            "CE2": "Homocisteina en plasma",
+                            "CE3": "Bioquímica",
+                            "CE1": "HOMOC"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "33",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "19,2",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "30,00 - 100,00",
+                        "OBX6": {
+                            "CE2": "ng/mL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "33",
+                        "OBX3": {
+                            "CE2": "Vitamina D 25OH (calcidiol)",
+                            "CE3": "Bioquímica",
+                            "CE1": "25OH"
+                        },
+                        "OBX8": "L"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "34",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "3,08",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "2,60 - 10,00",
+                        "OBX6": {
+                            "CE2": "ng/mL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "34",
+                        "OBX3": {
+                            "CE2": "Testosterona total",
+                            "CE3": "Endocrinología (suero)",
+                            "CE1": "TES"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "35",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "6,38",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "5,00 - 23,00",
+                        "OBX6": {
+                            "CE2": "µg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "35",
+                        "OBX3": {
+                            "CE2": "Cortisol",
+                            "CE3": "Endocrinología (suero)",
+                            "CE1": "COR"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "36",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "5,74",
+                        "OBX14": {
+                            "TS1": "20191122"
+                        },
+                        "OBX7": "2,00 - 25,00",
+                        "OBX6": {
+                            "CE2": "mU/L"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "36",
+                        "OBX3": {
+                            "CE2": "Insulina",
+                            "CE3": "Endocrinología (suero)",
+                            "CE1": "INSU"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "37",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "0,50",
+                        "OBX14": {
+                            "TS1": "20191126"
+                        },
+                        "OBX7": "0,00 - 3,00",
+                        "OBX6": {
+                            "CE2": "mg/L"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "37",
+                        "OBX3": {
+                            "CE2": "Proteína C Reactiva en suero (Ultrasensible)",
+                            "CE3": "Inmunología",
+                            "CE1": "PCU"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            },
+            {
+                "ORC": {
+                    "ORC9": {
+                        "TS1": "20191122095719"
+                    },
+                    "ORC1": "XO",
+                    "ORC2": {
+                        "EI1": null
+                    },
+                    "ORC3": {
+                        "EI1": "Y5694768M"
+                    },
+                    "ORC5": "A"
+                },
+                "FT1": {
+                    "FT11": {
+                        "CP1": {
+                            "MO1": null
+                        }
+                    }
+                },
+                "OBR": {
+                    "OBR1": "38",
+                    "OBR4": {
+                        "CE2": "PERFIL LIFE",
+                        "CE1": "LIFE"
+                    },
+                    "OBR2": {
+                        "EI1": "Y5694768M"
+                    }
+                },
+                "ORU_R01_OBSERVATION": {
+                    "OBX": {
+                        "OBX16": {
+                            "XCN1": null
+                        },
+                        "OBX5": "79",
+                        "OBX14": {
+                            "TS1": "20191126"
+                        },
+                        "OBX7": "60,00 - 120,00",
+                        "OBX6": {
+                            "CE2": "µg/dL"
+                        },
+                        "OBX2": "NM",
+                        "OBX1": "38",
+                        "OBX3": {
+                            "CE2": "Zinc en suero",
+                            "CE3": "Monitorización de Fármacos y Toxicología",
+                            "CE1": "ZN"
+                        },
+                        "OBX8": "N"
+                    },
+                    "NTE": {
+                        "NTE3": null
+                    }
+                }
+            }
+        ]
+    },
+    "xmlns_xsd": "http://www.w3.org/2001/XMLSchema",
+    "xmlns": "urn:hl7-org:v2xml"
+}

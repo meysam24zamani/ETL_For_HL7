@@ -77,13 +77,21 @@ class EtlService:
             bio_value['units'] = obs['ORU_R01_OBSERVATION']['OBX']['OBX6']['CE2']
 
             stringvalue = obs['ORU_R01_OBSERVATION']['OBX']['OBX5']
-            if stringvalue[0] == "<" or stringvalue[0] == ">":
-                bio_value['sign'] = stringvalue[0]
-                value = stringvalue[1:]
-                bio_value['value'] = float(value.replace(",","."))
+            bio_value['value'] = float(stringvalue.replace(",","."))
+
+            if bio_value['value'] > bio_value['max']:
+                absolute_diff = abs(bio_value['max'] - bio_value['value'])
+                relative_diff = absolute_diff / bio_value['max']
+                relative_diff = round(relative_diff, 2)
+            elif bio_value['value'] < bio_value['min']:
+                absolute_diff = abs(bio_value['min'] - bio_value['value'])
+                relative_diff = absolute_diff / bio_value['min']
+                relative_diff = round(relative_diff, 2)
             else:
-                bio_value['sign'] = None
-                bio_value['value'] = float(stringvalue.replace(",","."))
+                relative_diff = 0
+
+            bio_value['relative_discrepancy'] = relative_diff 
+          
 
             bio_value['consequence'] = obs['ORU_R01_OBSERVATION']['OBX']['OBX8']
 
@@ -260,17 +268,15 @@ class EtlService:
             value_min = str(key['min'])
             value_max = str(key['max'])
             value_units = str(key['units'])
-            value_sign = str(key['sign'])
-            value_consequence = str(key['consequence'])
 
             cur.execute("SELECT code FROM Dim_Type_Analysis WHERE code = %s", (value_code,))
             if len(cur.fetchall()) > 0:
                 pass
             else:
-                query4 = "INSERT INTO Dim_Type_Analysis (code, group_id, name, min, max, units, sign, consequence)" \
-                "VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"
+                query4 = "INSERT INTO Dim_Type_Analysis (code, group_id, name, min, max, units)" \
+                "VALUES (%s, %s, %s, %s, %s, %s)"
                 cur.execute(query4, (value_code, value_group_id, value_name,  \
-                value_min, value_max, value_units, value_sign, value_consequence))
+                value_min, value_max, value_units))
         print("Record created successfully in Dim_Type_Analysis table")
         conn.commit()
 
@@ -279,7 +285,9 @@ class EtlService:
         #Query5: Insert data into Fact_Observation table.  
         for key in value_all_values:
             value_result = str(key['value'])
+            value_relative_discrepancy = str(key['relative_discrepancy'])
             value_code = str(key['code'])
+            value_consequence = str(key['consequence'])
 
             cur.execute("SELECT id FROM Dim_Patient WHERE dni = %s", (value_dni,))
             rows = cur.fetchall()
@@ -293,8 +301,9 @@ class EtlService:
                 pass
             else:
                 query5 = "INSERT INTO Fact_Observation (patient_id, sample_date_id, type_analysis_id, " \
-                "result_value) VALUES (%s, %s, %s, %s)"
-                cur.execute(query5, (value_Patient_id, value_sample_timestamp, value_code, value_result))
+                "result_value, relative_discrepancy, consequence) VALUES (%s, %s, %s, %s, %s, %s)"
+                cur.execute(query5, (value_Patient_id, value_sample_timestamp, value_code, value_result, \
+                value_relative_discrepancy, value_consequence))
         print("Record created successfully in Fact_Observation table")
         conn.commit()
 

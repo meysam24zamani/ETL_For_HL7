@@ -11,8 +11,8 @@
                 "min": 4.1,
                 "max": 5.75,
                 "units": "x10&6/mm³",
-                "sign": null,
                 "value": 4.83,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -22,8 +22,8 @@
                 "min": 12.5,
                 "max": 17.2,
                 "units": "g/dL",
-                "sign": null,
                 "value": 15.5,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -33,8 +33,8 @@
                 "min": 36.5,
                 "max": 50.5,
                 "units": "%",
-                "sign": null,
                 "value": 44.3,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -44,8 +44,8 @@
                 "min": 78.0,
                 "max": 99.0,
                 "units": "fL",
-                "sign": null,
                 "value": 92.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -55,8 +55,8 @@
                 "min": 26.0,
                 "max": 33.5,
                 "units": "pg",
-                "sign": null,
                 "value": 32.1,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -66,8 +66,8 @@
                 "min": 31.5,
                 "max": 36.0,
                 "units": "g/dL",
-                "sign": null,
                 "value": 35.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -77,8 +77,8 @@
                 "min": 11.5,
                 "max": 15.5,
                 "units": "%",
-                "sign": null,
                 "value": 12.8,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -88,8 +88,8 @@
                 "min": 3.9,
                 "max": 10.5,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 4.9,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -99,8 +99,8 @@
                 "min": 42.0,
                 "max": 77.0,
                 "units": "%",
-                "sign": null,
                 "value": 51.8,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -110,8 +110,8 @@
                 "min": 20.0,
                 "max": 44.0,
                 "units": "%",
-                "sign": null,
                 "value": 34.2,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -121,8 +121,8 @@
                 "min": 1.5,
                 "max": 9.5,
                 "units": "%",
-                "sign": null,
                 "value": 10.6,
+                "relative_discrepancy": 0.12,
                 "consequence": "H"
             },
             {
@@ -132,8 +132,8 @@
                 "min": 0.5,
                 "max": 5.5,
                 "units": "%",
-                "sign": null,
                 "value": 2.7,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -143,8 +143,8 @@
                 "min": 0.0,
                 "max": 1.75,
                 "units": "%",
-                "sign": null,
                 "value": 0.7,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -154,8 +154,8 @@
                 "min": 1.5,
                 "max": 7.7,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 2.5,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -165,8 +165,8 @@
                 "min": 1.1,
                 "max": 4.5,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 1.7,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -176,8 +176,8 @@
                 "min": 0.1,
                 "max": 0.95,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 0.5,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -187,8 +187,8 @@
                 "min": 0.02,
                 "max": 0.5,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 0.1,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -198,8 +198,8 @@
                 "min": 0.0,
                 "max": 0.2,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 0.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -209,8 +209,8 @@
                 "min": 150.0,
                 "max": 370.0,
                 "units": "x10³/mm³",
-                "sign": null,
                 "value": 182.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -220,8 +220,8 @@
                 "min": 7.0,
                 "max": 12.0,
                 "units": "fL",
-                "sign": null,
                 "value": 10.3,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -231,8 +231,8 @@
                 "min": 74.0,
                 "max": 106.0,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 92.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -242,8 +242,8 @@
                 "min": 0.0,
                 "max": 6.5,
                 "units": "%",
-                "sign": null,
                 "value": 5.3,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -253,8 +253,8 @@
                 "min": 0.0,
                 "max": 48.0,
                 "units": "mmol/mol",
-                "sign": null,
                 "value": 34.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -264,8 +264,8 @@
                 "min": 0.0,
                 "max": 200.0,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 247.0,
+                "relative_discrepancy": 0.23,
                 "consequence": "H"
             },
             {
@@ -275,8 +275,8 @@
                 "min": 40.0,
                 "max": 59.0,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 59.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -286,8 +286,8 @@
                 "min": 0.0,
                 "max": 150.0,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 105.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -297,8 +297,8 @@
                 "min": 1.6,
                 "max": 2.6,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 2.15,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -308,8 +308,8 @@
                 "min": 230.0,
                 "max": 416.0,
                 "units": "U/L",
-                "sign": null,
                 "value": 314.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -319,8 +319,8 @@
                 "min": 0.0,
                 "max": 171.0,
                 "units": "U/L",
-                "sign": null,
                 "value": 93.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -330,8 +330,8 @@
                 "min": 20.0,
                 "max": 250.0,
                 "units": "ng/mL",
-                "sign": null,
                 "value": 210.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -341,8 +341,8 @@
                 "min": 8.6,
                 "max": 10.2,
                 "units": "mg/dL",
-                "sign": null,
                 "value": 9.4,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -352,8 +352,8 @@
                 "min": 0.0,
                 "max": 15.0,
                 "units": "µmol/L",
-                "sign": null,
                 "value": 12.38,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -363,8 +363,8 @@
                 "min": 30.0,
                 "max": 100.0,
                 "units": "ng/mL",
-                "sign": null,
                 "value": 19.2,
+                "relative_discrepancy": 0.36,
                 "consequence": "L"
             },
             {
@@ -374,8 +374,8 @@
                 "min": 2.6,
                 "max": 10.0,
                 "units": "ng/mL",
-                "sign": null,
                 "value": 3.08,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -385,8 +385,8 @@
                 "min": 5.0,
                 "max": 23.0,
                 "units": "µg/dL",
-                "sign": null,
                 "value": 6.38,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -396,8 +396,8 @@
                 "min": 2.0,
                 "max": 25.0,
                 "units": "mU/L",
-                "sign": null,
                 "value": 5.74,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -407,8 +407,8 @@
                 "min": 0.0,
                 "max": 3.0,
                 "units": "mg/L",
-                "sign": null,
                 "value": 0.5,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             },
             {
@@ -418,8 +418,8 @@
                 "min": 60.0,
                 "max": 120.0,
                 "units": "µg/dL",
-                "sign": null,
                 "value": 79.0,
+                "relative_discrepancy": 0,
                 "consequence": "N"
             }
         ]
