@@ -344,3 +344,4 @@
 2020-06-11 17:17:53 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
 2020-06-11 17:18:16 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Z7183270 
 2020-06-11 17:44:04 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Y5694768M 
+2020-06-21 12:03:39 [INFO] -- Running command: python3 src/main.py --sample-date 2019-11-22T09:57:19 --sample-id Y5694768M 

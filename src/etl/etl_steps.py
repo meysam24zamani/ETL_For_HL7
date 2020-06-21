@@ -168,17 +168,17 @@ class EtlService:
             os.makedirs(d)
 
         # Create JSON file for final response in the folder named output_files
-        path_response = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/response_{self.sample_id}_{self.sample_date_name}_[{self.timestamp}].json'
+        path_response = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/response.json'
         with open(path_response, 'w') as outfile:
                 json.dump(analysis, outfile, ensure_ascii=False, indent=4)
 
         # Create JSON file for biovalue in the folder named output_files
-        path_biovalue = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/biovalue_{self.sample_id}_{self.sample_date_name}_[{self.timestamp}].json'
+        path_biovalue = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/bio_value.json'
         with open(path_biovalue, 'w') as outfile:
                 json.dump(bio_value, outfile, ensure_ascii=False, indent=4)
 
         # Create JSON file for final patientidentification in the folder named output_files
-        path_patientidentification = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/patientidentification_{self.sample_id}_{self.sample_date_name}_[{self.timestamp}].json'
+        path_patientidentification = f'output_files/{self.sample_id}_{self.sample_date_name}/[{self.timestamp}]/patient_identification.json'
         with open(path_patientidentification, 'w') as outfile:
                 json.dump(patient_Identification, outfile, ensure_ascii=False, indent=4)
 
